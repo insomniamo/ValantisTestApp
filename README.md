@@ -1,6 +1,6 @@
-# testtask
+# ValantisTestApp
 
-Empty project.
+https://valantis-test-app.vercel.app
 
 ## Building and running on localhost
 
@@ -32,6 +32,3 @@ npm run build-dev
 
 Open the file `dist/index.html` in your browser
 
-## Credits
-
-Made with [createapp.dev](https://createapp.dev/)
