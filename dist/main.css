@@ -15,18 +15,30 @@
     gap: 10px;
 }
 .input-item{
-    border-radius: 3px;
+    border-top-left-radius: 3px;
+    border-bottom-left-radius: 3px;
     border: none;
     height: 50px;
     padding-left: 20px;
 }
 .input-item:focus{
-    outline: 2px solid #4077D6;
+    outline: none;
 }
 input[type=number]::-webkit-outer-spin-button,
 input[type=number]::-webkit-inner-spin-button {
     -webkit-appearance: none;
     margin: 0;
+}
+.search-button{
+    border-top-right-radius: 3px;
+    border-bottom-right-radius: 3px;
+    height: 50px;
+    background-color: #4077D6;
+    color: white;
+    font-weight: 700;
+    border: none;
+    padding: 9px 11px 9px 11px;
+    cursor: pointer;
 }
 .product-list {
     display: grid;
