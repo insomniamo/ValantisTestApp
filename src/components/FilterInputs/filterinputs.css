@@ -1,0 +1,22 @@
+.filter-list{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    gap: 10px;
+}
+.input-item{
+    border-radius: 3px;
+    border: none;
+    height: 50px;
+    padding-left: 20px;
+}
+.input-item:focus{
+    outline: 2px solid #4077D6;
+}
+input[type=number]::-webkit-outer-spin-button,
+input[type=number]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
